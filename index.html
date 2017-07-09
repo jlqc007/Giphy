@@ -53,7 +53,7 @@
 
     // Grabbing and storing the data property value from the button
   var teams = $(this).attr("data-name");
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + teams + "&api_key=67f92839b73d4751aade4c83783e2185&limit=10";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + teams + "&api_key=67f92839b73d4751aade4c83783e2185&limit=10";
 
      // Performing an AJAX request with the queryURL
       $.ajax({
